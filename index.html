@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny - SaaS Development Roadmap | Product Timeline</title>
+    <meta name="description" content="Linha do tempo real do desenvolvimento do Penny, assistente financeiro inteligente via WhatsApp. Do MVP à produção.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <img src="penny-logo.png" alt="Penny Logo" class="nav-logo">
+                    <span class="nav-brand-text">Penny</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#roadmap" class="nav-link">Roadmap</a>
+                    <a href="#contact" class="nav-link">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">SaaS Development Roadmap</h1>
+                <p class="header-subtitle">Linha do tempo real do desenvolvimento do produto, do MVP à produção.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Penny Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-title-wrapper">
+                        <img src="penny-logo.png" alt="Penny Logo" class="about-title-logo">
+                        <h2 class="about-title">Sobre o Penny</h2>
+                    </div>
+                    <p class="about-description">
+                        <strong>Penny</strong> é um assistente financeiro inteligente que funciona diretamente pelo WhatsApp. 
+                        Desenvolvido para simplificar o controle de gastos pessoais, o Penny utiliza inteligência artificial 
+                        para interpretar mensagens naturais, categorizar despesas automaticamente e fornecer insights 
+                        financeiros em tempo real.
+                    </p>
+                    <p class="about-description">
+                        Com uma abordagem conversacional e intuitiva, o Penny elimina a necessidade de planilhas complexas 
+                        ou aplicativos complicados. Basta enviar uma mensagem como <em>"Almoço hoje 35 reais"</em> e o bot 
+                        registra, categoriza e atualiza seu dashboard automaticamente.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i data-lucide="message-circle" class="feature-icon"></i>
+                            <span>Conversação Natural</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="brain" class="feature-icon"></i>
+                            <span>IA Inteligente</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="trending-up" class="feature-icon"></i>
+                            <span>Insights em Tempo Real</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Dashboard Preview -->
+                    <div class="dashboard-preview">
+                        <div class="preview-badge">
+                            <i data-lucide="alert-circle"></i>
+                            <span>Ambiente de Produção - Versão em Desenvolvimento</span>
+                        </div>
+                        <img src="dashboard-preview.png" alt="Dashboard do Penny - Versão em Produção" class="dashboard-image">
+                        <p class="preview-caption">
+                            *Esta é uma prévia do dashboard funcional em ambiente de produção. 
+                            A versão final terá melhorias visuais e funcionalidades adicionais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <main class="timeline-section" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Roadmap de Desenvolvimento</h2>
+                <p class="section-subtitle">Acompanhe cada etapa da construção do Penny, da ideia inicial até a produção</p>
+            </div>
+            <div class="timeline" id="timeline">
+                <!-- Timeline items will be dynamically generated -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Desenvolvido com foco em transparência e excelência técnica</p>
+                <div class="footer-contact">
+                    <h3 class="footer-contact-title">Entre em Contato</h3>
+                    <div class="footer-links">
+                        <a href="https://wa.me/5573991082831" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <i data-lucide="phone"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://github.com/wendelwrlddd" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <i data-lucide="github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer-copyright">© 2026 Penny. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
